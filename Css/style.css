@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:1240px;
+    margin:0 auto;
+}
+
+img{
+    width:100%;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:20px;
+}
+.player{
+    display:flex;
+}
+.player img{
+    width:56px;
+    height:56px;
+}
